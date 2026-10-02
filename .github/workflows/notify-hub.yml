@@ -1,0 +1,16 @@
+# Tells the Glassbox server to fetch this box straight away, instead of waiting
+# for its 10-minute check. Needs the GLASSBOX_SYNC_TOKEN secret (the server's
+# SYNC_TOKEN) and the GLASSBOX_SITE variable (e.g. https://glassbox.how).
+name: Notify Glassbox
+on:
+  push:
+    branches: [main]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.GLASSBOX_SYNC_TOKEN }}
+      SITE: ${{ vars.GLASSBOX_SITE }}
+    steps:
+      - if: env.TOKEN != '' && env.SITE != ''
+        run: curl -fsS -X POST "$SITE/__sync" -H "Authorization: Bearer $TOKEN"

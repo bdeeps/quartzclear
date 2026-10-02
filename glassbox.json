@@ -1,0 +1,105 @@
+{
+  "slug": "quartzclear",
+  "box": 136,
+  "date": "2026-10-11",
+  "title": "QuartzClear",
+  "question": "How does a quartz watch work?",
+  "hook": "A sliver of quartz shaped like a tuning fork rings 32,768 times a second. A chip halves that beat fifteen times, and a magnet smaller than a grain of rice flips once a second. Take a quartz watch apart in 3D and see why it beats a mechanical watch a hundred times its price.",
+  "thumbText": "HOW A QUARTZ WATCH WORKS",
+  "field": "machines",
+  "minutes": 14,
+  "tags": [
+    "quartz watch",
+    "watch",
+    "quartz crystal",
+    "piezoelectricity",
+    "stepper motor",
+    "flip-flop",
+    "gears",
+    "timekeeping",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A cell, a crystal, a chip, a motor and gears",
+      "text": "An analog quartz watch has a silver-oxide button cell, a quartz crystal sealed in a tiny can, a chip, a coil with a flat iron stator, a magnet rotor, and a train of gears that turns the hands. The crown on the side stops the watch and sets it."
+    },
+    {
+      "title": "A crystal that rings",
+      "text": "Quartz is piezoelectric: bend it and it makes a voltage, give it a voltage and it bends. Cut as a tuning fork about 3 mm long, it rings at 32,768 swings a second. The chip's oscillator listens to the fork and pushes it in step, so it never stops."
+    },
+    {
+      "title": "Halving, fifteen times",
+      "text": "32,768 is 2 multiplied by itself 15 times. A flip-flop halves the frequency of whatever pulses through it, so a chain of fifteen turns 32,768 Hz into 16,384, 8,192, and so on down to exactly one pulse a second."
+    },
+    {
+      "title": "A motor that moves in ticks",
+      "text": "Each second the chip sends a pulse a few thousandths of a second long through the coil. The stator becomes a magnet and flips the two-pole rotor half a turn. Every pulse flows the opposite way to the last, and two notches in the stator make sure the rotor always turns forwards."
+    },
+    {
+      "title": "Gears do the arithmetic",
+      "text": "The rotor makes 30 turns a minute. Gears with tooth ratios of 4, 6 and 1.25 slow it 30 times for the seconds hand. Two more pairs slow that 60 times for the minute hand, and the motion work under the dial slows that 12 times for the hour hand."
+    },
+    {
+      "title": "Seconds a month, not seconds a day",
+      "text": "An ordinary quartz watch is rated to about 15 seconds a month, where a certified mechanical chronometer may drift 6 seconds a day. The crystal's weak spot is temperature: it runs truest near 25 °C and slows either side. The whole watch runs on about a millionth of a watt, so a tiny cell lasts for years."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Piezoelectricity",
+      "def": "The way some crystals, like quartz, make a voltage when bent or squeezed, and bend when given a voltage."
+    },
+    {
+      "term": "Quartz tuning fork",
+      "def": "A two-pronged sliver of quartz a few millimetres long that rings at 32,768 swings a second and sets the pace of the watch."
+    },
+    {
+      "term": "Oscillator",
+      "def": "A circuit that keeps the crystal ringing by amplifying its tiny voltage and feeding it back in step."
+    },
+    {
+      "term": "Flip-flop",
+      "def": "A small circuit whose output flips each time its input pulses, so it halves the frequency. Fifteen in a chain turn 32,768 Hz into 1 Hz."
+    },
+    {
+      "term": "Lavet stepper motor",
+      "def": "A coil, a notched iron stator and a two-pole magnet rotor that turns exactly half a turn for each pulse."
+    },
+    {
+      "term": "Gear ratio",
+      "def": "Teeth on the driven wheel divided by teeth on the driving one. Ratios in a train multiply: 30, then 60, then 12."
+    },
+    {
+      "term": "Hacking",
+      "def": "Stopping the seconds hand when the crown is pulled out, so the watch can be set to the exact second."
+    },
+    {
+      "term": "Turnover temperature",
+      "def": "The temperature, about 25 °C, at which the crystal runs fastest. Warmer or colder, the watch loses time."
+    },
+    {
+      "term": "Q (quality factor)",
+      "def": "How cleanly something rings. A watch crystal's Q is about 70,000, a balance wheel's a few hundred."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "quartzclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

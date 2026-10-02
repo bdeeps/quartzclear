@@ -1,0 +1,126 @@
+{
+  "slug": "quartzclear",
+  "box": 136,
+  "question": "How does a quartz watch work?",
+  "url": "https://glassbox.how/e/quartzclear/",
+  "app": "https://glassbox.how/quartzclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "140 years from a squeezed crystal in a Paris lab to a watch that drifts by one second a year.\n\n1880: Squeeze a crystal, get electricity\n1921: A crystal that holds one note\n1927: The first quartz clock\n1960: The watch that hums\n1967: Beta 1: the first quartz wristwatch prototype\n1969: The Seiko Quartz Astron goes on sale\n\nThe full story, with 30 moments, sources and charts: glassbox.how/e/quartzclear/history (link in bio)\n\nThen play with how it works: glassbox.how/quartzclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #quartzwatch #watch #quartzcrystal #piezoelectricity #steppermotor #flipflop #history",
+      "youtube": {
+        "title": "The history of the quartz watch in 45 seconds #shorts",
+        "description": "140 years from a squeezed crystal in a Paris lab to a watch that drifts by one second a year.\n\n1880 · Squeeze a crystal, get electricity (Pierre and Jacques Curie)\n1921 · A crystal that holds one note (Walter Cady)\n1927 · The first quartz clock (Warren Marrison and Joseph Horton)\n1960 · The watch that hums (Max Hetzel and Bulova)\n1967 · Beta 1: the first quartz wristwatch prototype (Centre Electronique Horloger (CEH))\n1969 · The Seiko Quartz Astron goes on sale (Tsuneya Nakamura's team at Suwa Seikosha)\n\n▶ Full history: https://glassbox.how/e/quartzclear/history/\n▶ Play with it: https://glassbox.how/e/quartzclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does a quartz watch work?\n\nA sliver of quartz shaped like a tuning fork rings 32,768 times a second. A chip halves that beat fifteen times, and a magnet smaller than a grain of rice flips once a second. Take a quartz watch apart in 3D and see why it beats a mechanical watch a hundred times its price.\n\n→ A quartz watch is a cell, a crystal, a chip, a tiny motor and a few gears.\n→ Quartz is piezoelectric: bend it and it makes a voltage, give it a voltage and it bends.\n→ Cut as a tiny tuning fork, it rings 32,768 times a second. This is 27,000 times slower.\n→ Inside the chip, fifteen flip-flops each halve the beat: 32,768, 16,384, 8,192 …\n→ … down to 4, 2, and exactly one pulse a second for the motor.\n\nPlay with it yourself. It's free and open source: glassbox.how/quartzclear (link in bio)\n\nBox No. 136 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #quartzwatch #watch #quartzcrystal #piezoelectricity #steppermotor #flipflop #gears #timekeeping #threejs",
+    "carousel": "Swipe through: How does a quartz watch work?\n\nA sliver of quartz shaped like a tuning fork rings 32,768 times a second. A chip halves that beat fifteen times, and a magnet smaller than a grain of rice flips once a second. Take a quartz watch apart in 3D and see why it beats a mechanical watch a hundred times its price.\n\nSave this for later, then play with the interactive version at glassbox.how/quartzclear (link in bio).\n\nBox No. 136 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #quartzwatch #watch #quartzcrystal #piezoelectricity #steppermotor #flipflop",
+    "youtube": {
+      "title": "How does a quartz watch work? #shorts",
+      "description": "A sliver of quartz shaped like a tuning fork rings 32,768 times a second. A chip halves that beat fifteen times, and a magnet smaller than a grain of rice flips once a second. Take a quartz watch apart in 3D and see why it beats a mechanical watch a hundred times its price.\n\n▶ Play with it: https://glassbox.how/e/quartzclear/\n⌘ Source code (MIT): https://github.com/bdeeps/quartzclear\n\nBox No. 136 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a quartz watch work? (interactive explainer)",
+      "description": "A sliver of quartz shaped like a tuning fork rings 32,768 times a second. A chip halves that beat fifteen times, and a magnet smaller than a grain of rice flips once a second. Take a quartz watch apart in 3D and see why it beats a mechanical watch a hundred times its price.\n\n▶ Play with the interactive version: https://glassbox.how/e/quartzclear/\n⌘ Source code (MIT): https://github.com/bdeeps/quartzclear\n\nIn this video:\n• A cell, a crystal, a chip, a motor and gears. An analog quartz watch has a silver-oxide button cell, a quartz crystal sealed in a tiny can, a chip, a coil with a flat iron stator, a magnet rotor, and a train of gears that turns the hands.\n• A crystal that rings. Quartz is piezoelectric: bend it and it makes a voltage, give it a voltage and it bends.\n• Halving, fifteen times. 32,768 is 2 multiplied by itself 15 times.\n• A motor that moves in ticks. Each second the chip sends a pulse a few thousandths of a second long through the coil.\n• Gears do the arithmetic. The rotor makes 30 turns a minute.\n• Seconds a month, not seconds a day. An ordinary quartz watch is rated to about 15 seconds a month, where a certified mechanical chronometer may drift 6 seconds a day.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a quartz watch work?\n\nA sliver of quartz shaped like a tuning fork rings 32,768 times a second.\n\nPlay with it: https://glassbox.how/e/quartzclear/",
+    "linkedin": "How does a quartz watch work?\n\nA sliver of quartz shaped like a tuning fork rings 32,768 times a second. A chip halves that beat fifteen times, and a magnet smaller than a grain of rice flips once a second. Take a quartz watch apart in 3D and see why it beats a mechanical watch a hundred times its price.\n\n1. A cell, a crystal, a chip, a motor and gears\n2. A crystal that rings\n3. Halving, fifteen times\n4. A motor that moves in ticks\n5. Gears do the arithmetic\n6. Seconds a month, not seconds a day\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 136 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/quartzclear/\nCode: https://github.com/bdeeps/quartzclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-03T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-02T20:26:25.634Z"
+}
